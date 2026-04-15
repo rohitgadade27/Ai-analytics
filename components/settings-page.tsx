@@ -19,7 +19,7 @@ export function SettingsPage() {
       {/* Account Settings */}
       <div className="glass-card p-4 sm:p-6 glow-sm space-y-6">
         <div className="flex items-center gap-3 pb-6 border-b border-primary/20">
-          <User className="w-5 h-5 text-primary shrink-0" />
+          <User className="w-5 h-5 text-primary flex-shrink-0" />
           <h2 className="text-lg sm:text-xl font-bold text-white">Account Information</h2>
         </div>
 
@@ -51,7 +51,7 @@ export function SettingsPage() {
       {/* Security Settings */}
       <div className="glass-card p-4 sm:p-6 glow-sm space-y-6">
         <div className="flex items-center gap-3 pb-6 border-b border-primary/20">
-          <Lock className="w-5 h-5 text-primary shrink-0" />
+          <Lock className="w-5 h-5 text-primary flex-shrink-0" />
           <h2 className="text-lg sm:text-xl font-bold text-white">Security</h2>
         </div>
 
@@ -80,7 +80,7 @@ export function SettingsPage() {
       {/* Notification Settings */}
       <div className="glass-card p-4 sm:p-6 glow-sm space-y-6">
         <div className="flex items-center gap-3 pb-6 border-b border-primary/20">
-          <Bell className="w-5 h-5 text-primary shrink-0" />
+          <Bell className="w-5 h-5 text-primary flex-shrink-0" />
           <h2 className="text-lg sm:text-xl font-bold text-white">Notifications</h2>
         </div>
 
